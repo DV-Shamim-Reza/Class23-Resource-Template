@@ -1,0 +1,170 @@
+
+html.js-focus-visible {
+    overflow-x: hidden;
+}
+/*HEADER START */
+header{
+    background-color: #000;
+    color: #FFF;
+    padding: 5px 15%;
+    display: flex;
+    align-items: center;
+}
+header a{
+    width: 25%;
+}
+header a img{
+    width: 90px;
+}
+header nav{
+width: 75%;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+header nav ul li{
+    position: relative;
+}
+header nav ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 18px;
+    padding: 0 10px;
+}
+/* HEADER END */
+
+/* DISPLAY FLEX START */
+.displayParent{
+    display: flex;
+    justify-content: space-between;
+    height:100vh;
+}
+.content{
+    width: 78%;
+    padding: 20px 0 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.content .box{
+   width: 32%;
+   height: 30vh;
+   border: 1px solid green; 
+}
+.content .box.box1 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+}
+.content .box.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content .box.box3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.content .box.box4 {
+    flex-basis: 24%;
+}
+.content .box.box5 {
+    flex-basis: 48%;
+}
+.content .box.box6 {
+    flex-basis: 24%;
+}
+.content .box.box7 {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.content .box.box8 {
+    padding: 20px 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content .box.box9 {
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+.content .box.box9 .flex2 {
+    display: flex;
+    align-self: center;
+}
+.content .box.box9 .flex3 {
+    display: flex;
+    align-self: flex-end;
+}
+.content .box span{
+display: inline-block;
+color: #fff;
+background-color: red;
+padding: 25px 15px;
+border: 1px solid green;
+}
+.content .box p{
+padding: 20px;
+}
+.sidebar{
+    width: 20%;
+    padding: 20px;
+    background-color: #ddd;
+    border-left: 2px solid tomato;
+}
+.sidebar img{
+    max-width: 90%;
+}
+/* DISPLAY FLEX END */
+
+/* START */
+footer{
+    background-color: #000;
+    
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-left: 0;
+    width: 40%;
+    margin: auto;
+}
+footer ul li{
+    position: relative;
+}
+footer ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 1px;
+    width: 100%;
+    background: #fff;
+}
+footer ul li a {
+    text-decoration: none;
+    color: #fff !important;
+    font-size: 18px;
+    padding: 0 10px;
+}
+/* END */
